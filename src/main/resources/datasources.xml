@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<cims>  
+	<dbs>
+	    <db>  
+	    	<logicname>db0</logicname>
+	        <driver>com.mysql.jdbc.Driver</driver>  
+	        <url>jdbc:mysql://127.0.0.1:3306/sharding-test0</url>  
+	        <username>root</username>  
+	        <password></password>  
+	    </db>
+	    
+	   	<db>  
+	   		<logicname>db1</logicname>
+	        <driver>com.mysql.jdbc.Driver</driver>  
+	        <url>jdbc:mysql://127.0.0.1:3306/sharding-test-1</url>  
+	        <username>root</username>  
+	        <password></password>  
+	    </db>
+    </dbs>
+</cims>  
